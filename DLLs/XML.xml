@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<bbdd>
+  <conexion>
+    <tipo>Acces</tipo>
+    <servidor>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\VS2012\Hoteles2.mdb</servidor>
+  </conexion>
+  <conexion>
+    <tipo>SQL</tipo>
+    <servidor>Provider=SQLOLEDB;Server=172.17.6.33;Database=JuegosDAM;Uid=sa;Pwd=12345;</servidor>
+  </conexion>
+  <conexion>
+    <tipo>MySQL</tipo>
+    <servidor>Server=localhost;Port=3306;Database=db475492937;Uid=dbo475492937;Pwd=pebadamola;</servidor>
+  </conexion>
+</bbdd>
