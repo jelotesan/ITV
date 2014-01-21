@@ -66,11 +66,6 @@ namespace ITV
         {
         }
 
-        private void ToolBarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            toolStrip.Visible = toolBarToolStripMenuItem.Checked;
-        }
-
         private void StatusBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             statusStrip.Visible = statusBarToolStripMenuItem.Checked;
@@ -107,6 +102,14 @@ namespace ITV
         private void frmToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormBase.frmBase a = new FormBase.frmBase();
+            a.MdiParent = this;
+            a.Show();
+        }
+
+        private void frmLoginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormLogin.frmLogin a = new FormLogin.frmLogin();
+            a.MdiParent = this;
             a.Show();
         }
     }

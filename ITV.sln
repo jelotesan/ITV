@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBarGasos", "Progres
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormBase", "FormBase\FormBase.csproj", "{AB277B6C-9534-4065-A6C9-6F022F3F924B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormLogin", "FormLogin\FormLogin.csproj", "{34DC2727-CD94-4133-8464-65227086B12A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{AB277B6C-9534-4065-A6C9-6F022F3F924B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB277B6C-9534-4065-A6C9-6F022F3F924B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB277B6C-9534-4065-A6C9-6F022F3F924B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DC2727-CD94-4133-8464-65227086B12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DC2727-CD94-4133-8464-65227086B12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DC2727-CD94-4133-8464-65227086B12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DC2727-CD94-4133-8464-65227086B12A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

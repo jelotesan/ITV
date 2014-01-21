@@ -40,10 +40,11 @@
             this.tileHorizontalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.closeAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.arrangeIconsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.frmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.frmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.frmLoginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -53,7 +54,8 @@
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.viewMenu,
             this.windowsMenu,
-            this.frmToolStripMenuItem});
+            this.frmToolStripMenuItem,
+            this.frmLoginToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.MdiWindowListItem = this.windowsMenu;
             this.menuStrip.Name = "menuStrip";
@@ -78,7 +80,6 @@
             this.toolBarToolStripMenuItem.Name = "toolBarToolStripMenuItem";
             this.toolBarToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
             this.toolBarToolStripMenuItem.Text = "&Barra de herramientas";
-            this.toolBarToolStripMenuItem.Click += new System.EventHandler(this.ToolBarToolStripMenuItem_Click);
             // 
             // statusBarToolStripMenuItem
             // 
@@ -145,6 +146,13 @@
             this.arrangeIconsToolStripMenuItem.Text = "&Organizar iconos";
             this.arrangeIconsToolStripMenuItem.Click += new System.EventHandler(this.ArrangeIconsToolStripMenuItem_Click);
             // 
+            // frmToolStripMenuItem
+            // 
+            this.frmToolStripMenuItem.Name = "frmToolStripMenuItem";
+            this.frmToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
+            this.frmToolStripMenuItem.Text = "frmBase";
+            this.frmToolStripMenuItem.Click += new System.EventHandler(this.frmToolStripMenuItem_Click);
+            // 
             // statusStrip
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -161,12 +169,12 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
             this.toolStripStatusLabel.Text = "Estado";
             // 
-            // frmToolStripMenuItem
+            // frmLoginToolStripMenuItem
             // 
-            this.frmToolStripMenuItem.Name = "frmToolStripMenuItem";
-            this.frmToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
-            this.frmToolStripMenuItem.Text = "frmBase";
-            this.frmToolStripMenuItem.Click += new System.EventHandler(this.frmToolStripMenuItem_Click);
+            this.frmLoginToolStripMenuItem.Name = "frmLoginToolStripMenuItem";
+            this.frmLoginToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
+            this.frmLoginToolStripMenuItem.Text = "frmLogin";
+            this.frmLoginToolStripMenuItem.Click += new System.EventHandler(this.frmLoginToolStripMenuItem_Click);
             // 
             // MDI
             // 
@@ -205,6 +213,7 @@
         private System.Windows.Forms.ToolStripMenuItem arrangeIconsToolStripMenuItem;
         private System.Windows.Forms.ToolTip toolTip;
         private System.Windows.Forms.ToolStripMenuItem frmToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem frmLoginToolStripMenuItem;
     }
 }
 

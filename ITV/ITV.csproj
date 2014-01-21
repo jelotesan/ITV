@@ -117,6 +117,10 @@
       <Project>{ab277b6c-9534-4065-a6c9-6f022f3f924b}</Project>
       <Name>FormBase</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FormLogin\FormLogin.csproj">
+      <Project>{34dc2727-cd94-4133-8464-65227086b12a}</Project>
+      <Name>FormLogin</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
