@@ -103,5 +103,11 @@ namespace ITV
                 childForm.Close();
             }
         }
+
+        private void frmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormBase.frmBase a = new FormBase.frmBase();
+            a.Show();
+        }
     }
 }
