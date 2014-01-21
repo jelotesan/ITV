@@ -8,8 +8,4 @@
     <tipo>SQL</tipo>
     <servidor>Provider=SQLOLEDB;Server=172.17.6.33;Database=JuegosDAM;Uid=sa;Pwd=12345;</servidor>
   </conexion>
-  <conexion>
-    <tipo>MySQL</tipo>
-    <servidor>Server=localhost;Port=3306;Database=db475492937;Uid=dbo475492937;Pwd=pebadamola;</servidor>
-  </conexion>
 </bbdd>
