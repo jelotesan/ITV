@@ -1,4 +1,4 @@
-﻿namespace CustomTextbox.Textbox
+﻿namespace CustomTextbox
 {
     partial class CustomTextbox
     {

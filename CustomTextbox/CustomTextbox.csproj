@@ -46,7 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CustomTextbox.cs" />
+    <Compile Include="CustomTextbox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="CustomTextbox.Designer.cs">
       <DependentUpon>CustomTextbox.cs</DependentUpon>
     </Compile>
